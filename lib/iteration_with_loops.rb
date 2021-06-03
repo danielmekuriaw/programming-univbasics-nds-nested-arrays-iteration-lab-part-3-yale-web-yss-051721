@@ -8,7 +8,7 @@ def join_nested_strings(src)
     while inner < src[outer].length do
       
       if src[outer][inner].type == "string".type
-        min = src[outer][inner]
+        conc += 
       end
       inner += 1
     end
