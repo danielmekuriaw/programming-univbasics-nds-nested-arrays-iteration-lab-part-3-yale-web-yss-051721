@@ -11,6 +11,7 @@ def join_nested_strings(src)
       if src[outer][inner].class == "string".class
         conc += src[outer][inner]
       end
+      inner += 1
       
     end
   end
