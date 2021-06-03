@@ -8,7 +8,7 @@ def join_nested_strings(src)
   
     while inner < src[outer].length do
       
-      if type(src[outer][inner]) == type("string")
+      if src[outer][inner].class == "string".class
         conc += src[outer][inner]
       end
       
