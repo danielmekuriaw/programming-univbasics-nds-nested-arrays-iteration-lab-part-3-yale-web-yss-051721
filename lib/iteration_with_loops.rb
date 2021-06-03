@@ -9,7 +9,7 @@ def join_nested_strings(src)
     while inner < src[outer].length do
       
       if src[outer][inner].class == "string".class
-        conc += src[outer][inner]
+        array.push(src[outer][inner])
       end
       inner += 1
     end
