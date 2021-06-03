@@ -16,5 +16,5 @@ def join_nested_strings(src)
     
     outer += 1
   end
-  conc
+  array.join(" ")
 end
