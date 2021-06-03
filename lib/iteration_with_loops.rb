@@ -12,8 +12,9 @@ def join_nested_strings(src)
         conc += src[outer][inner]
       end
       inner += 1
-      
     end
+    
+    outer += 1
   end
   conc
 end
