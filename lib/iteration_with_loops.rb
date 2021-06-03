@@ -8,11 +8,10 @@ def join_nested_strings(src)
     while inner < src[outer].length do
       
       if src[outer][inner].type == "string".type
-        conc += 
+        conc += src[outer][inner]
       end
-      inner += 1
+      
     end
-    min_array.push(min)
-    outer += 1
   end
+  conc
 end
